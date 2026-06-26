@@ -10,8 +10,7 @@ int main()
     original = num;   // Save the original number
 
     // Reverse the number
-    while (num > 0)
-    {
+    while (num > 0){
         digit = num % 10;        // Get the last digit
         rev = rev * 10 + digit;  // Add the digit to the reversed number
         num = num / 10;          // Remove the last digit
